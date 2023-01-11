@@ -28,8 +28,3 @@ a {
   text-decoration: none;
   list-style: none;
 }
-
-#content {
-    background-image: url("../assets/imgs/barberbackground.jpg");
-    background-color: rgba(0, 0, 0, 0);
-}
