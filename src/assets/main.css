@@ -1,0 +1,35 @@
+@import "./base.css";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Akira Expanded";
+}
+
+p,
+a,
+li,
+ul {
+  font-family: "Raleway";
+}
+
+#nav-links {
+  list-style-type: none;
+}
+
+li {
+  padding: 6px;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+#content {
+    background-image: url("../assets/imgs/barberbackground.jpg");
+    background-color: rgba(0, 0, 0, 0);
+}
