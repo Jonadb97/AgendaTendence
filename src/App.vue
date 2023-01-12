@@ -15,7 +15,7 @@ import Facebook from './assets/svg/facebook.vue'
       <router-link class="mt-auto mb-auto" :to="{ path: '/' }"><img src="./assets/logo.png" width="64px" height="72px"
           alt="Logo Tendence Solutions"></router-link>
       <router-link class="mt-auto mb-auto" :to="{ path: '/' }">
-        <h1 class="text-4xl">Tendence Solutions</h1>
+        <h1 class="text-3xl m-0 p-0">Tendence</h1><h1 id="solutions" class="text-4xl text-center" >SOLUTIONS</h1>
       </router-link>
       <ul id="nav-links" class="flex mt-auto mb-auto ml-auto mr-6">
         <li class="hover:cursor-pointer"><router-link :to="{ path: '/' }">Inicio</router-link></li>
