@@ -29,6 +29,11 @@ Azul: #446FB2
     color: var(--Blanco);
   }
 
+  svg {
+    fill: var(--Blanco);
+    background-color: rgba(0, 0, 0, 0);
+  }
+
 }
 
 @media screen and (prefers-color-scheme: light) {
@@ -42,3 +47,4 @@ Azul: #446FB2
   --Violeta: #7F217D;
   --Azul: #446FB2;
 }
+
