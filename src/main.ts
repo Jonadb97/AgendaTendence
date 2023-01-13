@@ -1,7 +1,11 @@
 import Vue from 'vue'
 import { createPinia, PiniaVuePlugin } from 'pinia'
 import { compileToFunctions } from 'vue-template-compiler'
-import Inicio from './components/inicio.vue'
+import Inicio from './pages/inicio.vue'
+import Login from './pages/login.vue'
+import Register from './pages/register.vue'
+import SacarTurno from './pages/sacarTurno.vue'
+import TurnosPendientes from './pages/turnosPendientes.vue'
 import 'animate.css'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
@@ -17,6 +21,10 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 const routes = [
   { path: '/', name: "Index", component: Inicio},
+  { path: '/login', name: "Login", component: Login},
+  { path: '/register', name: "Register", component: Register},
+  { path: '/sacarTurno', name: "SacarTurno", component: SacarTurno},
+  { path: '/turnosPendientes', name: "TurnosPendientes", component: TurnosPendientes}
 ]
 
 const router = new VueRouter({

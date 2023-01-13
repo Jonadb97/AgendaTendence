@@ -8,7 +8,7 @@ import Facebook from './assets/svg/facebook.vue'
 </script>
 
 <template>
-  <div id="app">
+  <div class="flex-row relative" id="app">
 
     <!-- Header -->
     <nav class="flex">
@@ -19,20 +19,21 @@ import Facebook from './assets/svg/facebook.vue'
       </router-link>
       <ul id="nav-links" class="flex mt-auto mb-auto ml-auto mr-6">
         <li class="hover:cursor-pointer"><router-link :to="{ path: '/' }">Inicio</router-link></li>
-        <li>Mis turnos</li>
-        <li>Sacar un turno</li>
+        <li class="hover:cursor-pointer"><router-link :to="{ path: '/login' }">Iniciar sesión</router-link></li>
+        <li class="hover:cursor-pointer"><router-link :to="{ path: '/sacarTurno' }">Sacar turno</router-link></li>
+        <li class="hover:cursor-pointer"><router-link :to="{ path: '/turnosPendientes' }">Mis turnos</router-link></li>
       </ul>
     </nav>
 
     <!-- Main -->
-    <div>
+    <div class="h-screen">
       <router-view class="view m-8"></router-view>
     </div>
 
     <!-- Footer -->
-    <div id="footer" class="block text-center absolute bottom-0 w-screen pb-12">
+    <div id="footer" class="flex-row text-center h-32 w-screen pb-12 fixed bottom-0">
       <p class="m-auto pt-12 bg-transparent">Encontranos en:</p>
-      <Instagram class="w-8 p-4 m-autos"/>
+      <Instagram class="w-8 p-4 m-auto"/>
       <Facebook class="w-8 p-4 m-auto" />
     </div>
   </div>

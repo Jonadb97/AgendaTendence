@@ -33,6 +33,11 @@ button {
   border-color: var(--Violeta);
 }
 
+input {
+  border-color: var(--Violeta);
+}
+
+
 #footer {
   background-image: linear-gradient(rgba(0,0,0,0), var(--Violeta), var(--Azul))
 }
