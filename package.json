@@ -21,6 +21,7 @@
     "animate.css": "^4.1.1",
     "element-ui": "^2.15.12",
     "pinia": "^2.0.16",
+    "v-calendar": "^2.4.1",
     "vue": "^2.7.7",
     "vue-router": "^3.6.5"
   },

@@ -1,7 +1,7 @@
 @import "./base.css";
 
 h1,
-h2,
+
 h3,
 h4,
 h5,
@@ -12,6 +12,7 @@ h6 {
 p,
 a,
 li,
+h2,
 ul {
   font-family: "Raleway";
 }
@@ -27,6 +28,7 @@ li {
 a {
   text-decoration: none;
   list-style: none;
+  scroll-behavior: smooth;
 }
 
 button {
@@ -45,4 +47,8 @@ input {
 #solutions {
   font-family: "Raleway";
   font-weight: 300;
+}
+
+i {
+  background-color: rgba(0,0,0,0);
 }

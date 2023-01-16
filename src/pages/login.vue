@@ -1,6 +1,6 @@
 <template>
     <div class="text-center h-screen">
-        <h1 class="m-4">Iniciar sesion</h1>
+        <h1 class="m-24">Iniciar sesion</h1>
         <p>Mail</p>
         <input class="rounded m-4" type="email" name="mail" id="mailInput">
         <p>Contraseña</p>
