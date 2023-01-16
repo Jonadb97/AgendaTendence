@@ -8,6 +8,8 @@ import SacarTurno from './pages/sacarTurno.vue'
 import TurnosPendientes from './pages/turnosPendientes.vue'
 import 'animate.css'
 import ElementUI from 'element-ui';
+const locale = require('element-ui/lib/locale/lang/es');
+const VCalendar = require('v-calendar');
 import 'element-ui/lib/theme-chalk/index.css';
 import App from './App.vue'
 import VueRouter from 'vue-router'
@@ -15,8 +17,7 @@ import './assets/main.css'
 import 'uno.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import locale from 'element-ui/lib/locale/lang/es'
-import VCalendar from 'v-calendar'
+
 
 
 // Routes
