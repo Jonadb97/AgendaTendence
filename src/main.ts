@@ -11,7 +11,7 @@ import ElementUI from 'element-ui'
 const VCalendar = require('v-calendar');
 const locale = require('element-ui/lib/locale/es');
 import 'element-ui/lib/theme-chalk/index.css'
-import App from './App.vue'
+const App = require('./App.vue')
 import VueRouter from 'vue-router'
 import './assets/main.css'
 import 'uno.css'
