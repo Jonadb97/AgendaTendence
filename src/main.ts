@@ -8,7 +8,7 @@ import SacarTurno from './pages/sacarTurno.vue'
 import TurnosPendientes from './pages/turnosPendientes.vue'
 import 'animate.css'
 import ElementUI from 'element-ui'
-const VCalendar = require('v-calendar');
+import VCalendar from "v-calendar";
 const locale = require('element-ui/lib/locale/es');
 import 'element-ui/lib/theme-chalk/index.css'
 const App = require('./App.vue')

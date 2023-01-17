@@ -1,2 +1,10 @@
-declare module 'element-ui/lib/locale/lang/es';
-declare module 'v-calendar';
+
+declare module "v-calendar" {
+    function VCalendar(): void;
+    export = VCalendar;
+}
+
+declare module "element-ui/lib/locale/lang/es" {
+    function locale(): void;
+    export = locale;
+}
