@@ -8,7 +8,6 @@ import SacarTurno from './pages/sacarTurno.vue'
 import TurnosPendientes from './pages/turnosPendientes.vue'
 import 'animate.css'
 import ElementUI from 'element-ui'
-import VCalendar from "v-calendar";
 import 'element-ui/lib/theme-chalk/index.css'
 import App from './App.vue'
 import VueRouter from 'vue-router'
@@ -39,7 +38,6 @@ const router = new VueRouter({
 Vue.use(PiniaVuePlugin)
 Vue.use(VueRouter)
 Vue.use(ElementUI, {locale: 'es'})
-Vue.use(VCalendar)
 
 
 // Start Vue
