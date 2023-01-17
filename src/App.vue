@@ -9,6 +9,8 @@ import Facebook from './assets/svg/facebook.vue'
 
 <template>
   <div class="flex-row relative" id="app">
+    <head>
+    </head>
 
     <!-- Header -->
     <nav class="flex">

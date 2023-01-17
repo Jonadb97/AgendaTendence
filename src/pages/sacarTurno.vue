@@ -1,5 +1,5 @@
 <template>
-    <div class="text-center">
+    <div id="root" class="text-center">
         <div id="turnos-section1" class="h-screen">
             <h1>Sacar turno</h1>
             <h2 class="mt-6">¿Qué te vas a hacer?</h2>
@@ -44,6 +44,13 @@ export default({
       date: new Date(),
       timezone: '',
     }
+  },
+  created() {
+    if(document.getElementById('root')) return;
+    var scriptTag = document.createElement("script");
+    scriptTag.src = "https://unpkg.com/v-calendar";
+    scriptTag.id = "v-calendar";
+    document.getElementsByTagName('head')[0].appendChild(scriptTag);
   }
 })
 

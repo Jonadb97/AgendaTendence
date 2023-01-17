@@ -15,7 +15,7 @@ import './assets/main.css'
 import 'uno.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-
+import VCalendar from 'v-calendar';
 
 
 // Routes
@@ -38,6 +38,7 @@ const router = new VueRouter({
 Vue.use(PiniaVuePlugin)
 Vue.use(VueRouter)
 Vue.use(ElementUI, {locale: 'es'})
+Vue.use(VCalendar)
 
 
 // Start Vue
