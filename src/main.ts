@@ -7,10 +7,10 @@ import Register from './pages/register.vue'
 import SacarTurno from './pages/sacarTurno.vue'
 import TurnosPendientes from './pages/turnosPendientes.vue'
 import 'animate.css'
-import ElementUI from 'element-ui';
-import * as locale from 'element-ui/lib/locale/es';
-import * as VCalendar from 'v-calendar';
-import 'element-ui/lib/theme-chalk/index.css';
+import ElementUI from 'element-ui'
+import locale 'element-ui/lib/locale/es'
+import VCalendar from 'v-calendar'
+import 'element-ui/lib/theme-chalk/index.css'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 import './assets/main.css'
