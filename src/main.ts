@@ -9,9 +9,8 @@ import TurnosPendientes from './pages/turnosPendientes.vue'
 import 'animate.css'
 import ElementUI from 'element-ui'
 import VCalendar from "v-calendar";
-const locale = require('element-ui/lib/locale/es');
 import 'element-ui/lib/theme-chalk/index.css'
-const App = require('./App.vue')
+import App from './App.vue'
 import VueRouter from 'vue-router'
 import './assets/main.css'
 import 'uno.css'
@@ -39,7 +38,7 @@ const router = new VueRouter({
 
 Vue.use(PiniaVuePlugin)
 Vue.use(VueRouter)
-Vue.use(ElementUI, {locale})
+Vue.use(ElementUI, {locale: 'es'})
 Vue.use(VCalendar)
 
 
