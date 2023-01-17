@@ -21,5 +21,12 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
+  },
+  build: {
+    rollupOptions: {
+      external: [
+        'node:element-ui/lib/locale/es'
+      ]
+    }
   }
 })
