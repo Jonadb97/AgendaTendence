@@ -41,7 +41,7 @@ input {
 
 
 #footer {
-  background-image: linear-gradient(rgba(0,0,0,0), var(--Violeta), var(--Azul))
+  background-image: linear-gradient(rgba(0,0,0,0), var(--Violeta), var(--Azul));
 }
 
 #solutions {
