@@ -48,3 +48,15 @@ Azul: #446FB2
   --Azul: #446FB2;
 }
 
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+  transform: scale(0);
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: all .3s ease;
+}
+
+.el-icon-time {
+  transform: translateX(16px);
+}

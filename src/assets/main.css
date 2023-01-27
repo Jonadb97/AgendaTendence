@@ -52,3 +52,35 @@ input {
 i {
   background-color: rgba(0,0,0,0);
 }
+
+.el-input__inner {
+  background-color: transparent;
+}
+
+.el-picker-panel {
+  background-color: var(--Negro);
+  color: white;
+  font-family: sans;
+  font-weight: bold;
+  border: 0;
+  box-shadow: 2px 2px 12px black;
+}
+
+.el-date-picker__header>button {
+  color: white;
+}
+.el-date-picker__header>span {
+  color: white;
+}
+.el-picker-panel__footer {
+  background-color: var(--Negro);
+}
+
+.el-picker-panel__footer>button {
+  background-color: transparent;
+}
+
+.el-picker-panel > .popper__arrow {
+  border-style: none;
+  display: none;
+}

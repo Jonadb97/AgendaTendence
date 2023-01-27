@@ -15,7 +15,11 @@ import './assets/main.css'
 import 'uno.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import VCalendar from 'v-calendar';
+import VCalendar from 'v-calendar'
+import vueSmoothScroll from 'vue2-smooth-scroll'
+import { DatePicker } from 'element-ui'
+import { TimePicker } from 'element-ui'
+
 
 
 // Routes
@@ -39,6 +43,7 @@ Vue.use(PiniaVuePlugin)
 Vue.use(VueRouter)
 Vue.use(ElementUI, {locale: 'es'})
 Vue.use(VCalendar)
+Vue.use(vueSmoothScroll)
 
 
 // Start Vue

@@ -9,6 +9,7 @@ import Facebook from './assets/svg/facebook.vue'
 
 <template>
   <div class="flex-row relative" id="app">
+
     <head>
     </head>
 
@@ -17,7 +18,8 @@ import Facebook from './assets/svg/facebook.vue'
       <router-link class="mt-auto mb-auto" :to="{ path: '/' }"><img src="./assets/logo.png" width="64px" height="72px"
           alt="Logo Tendence Solutions"></router-link>
       <router-link class="mt-auto mb-auto" :to="{ path: '/' }">
-        <h1 class="text-3xl m-0 p-0">Tendence</h1><h1 id="solutions" class="text-4xl text-center" >SOLUTIONS</h1>
+        <h1 class="text-3xl m-0 p-0">Tendence</h1>
+        <h1 id="solutions" class="text-4xl text-center">SOLUTIONS</h1>
       </router-link>
       <ul id="nav-links" class="flex mt-auto mb-auto ml-auto mr-6">
         <li class="hover:cursor-pointer"><router-link :to="{ path: '/' }">Inicio</router-link></li>
@@ -29,13 +31,15 @@ import Facebook from './assets/svg/facebook.vue'
 
     <!-- Main -->
     <div class="h-screen">
-      <router-view class="view m-8"></router-view>
+      <transition name="fade" mode="out-in">
+        <router-view class="view m-8"></router-view>
+      </transition>
     </div>
 
     <!-- Footer -->
     <div id="footer" class="flex-row text-center h-32 w-screen pb-12 fixed bottom-0">
       <p class="m-auto pt-12 bg-transparent">Encontranos en:</p>
-      <Instagram class="w-8 p-4 m-auto"/>
+      <Instagram class="w-8 p-4 m-auto" />
       <Facebook class="w-8 p-4 m-auto" />
     </div>
   </div>
