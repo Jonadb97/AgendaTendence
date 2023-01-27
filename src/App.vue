@@ -31,7 +31,7 @@ import Facebook from './assets/svg/facebook.vue'
 
     <!-- Main -->
     <div class="h-screen">
-      <transition name="fade" mode="out-in">
+      <transition name="fade" mode="out-in" appear>
         <router-view class="view m-8"></router-view>
       </transition>
     </div>

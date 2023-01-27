@@ -8,7 +8,7 @@
                     <h3 class="medium">{{ item }}</h3>
                 </el-carousel-item>
             </el-carousel>
-            <a href="#turnos-section2" v-smooth-scroll><el-button class="mt-20" icon="el-icon-arrow-down"
+            <a href="#turnos-section2" v-smooth-scroll><el-button class="mt-14" icon="el-icon-arrow-down"
                     circle></el-button></a>
         </div>
         <div id="turnos-section2" class="h-screen">
@@ -18,7 +18,7 @@
                     <h3 class="medium">{{ item }}</h3>
                 </el-carousel-item>
             </el-carousel>
-            <a href="#turnos-section3" v-smooth-scroll><el-button class="mt-20" icon="el-icon-arrow-down"
+            <a href="#turnos-section3" v-smooth-scroll><el-button class="mt-22" icon="el-icon-arrow-down"
                     circle></el-button></a>
         </div>
         <div id="turnos-section3" class="h-screen pb-12 mb-12" v-smooth-scroll>
@@ -33,7 +33,7 @@
                 <!--
                 <v-date-picker class="text-center mt-12" v-model="date" mode="dateTime" :timezone="timezone" is24hr is-dark/>
                 -->
-                <el-time-select class="p-6 mt-12" v-model="value" :picker-options="{
+                <el-time-select class="p-6 mt-20" v-model="value" :picker-options="{
                     start: '08:30',
                     step: '00:15',
                     end: '18:30'
@@ -46,7 +46,7 @@
             </div>
 
             <br>
-            <el-button class="" @click="$router.push('/turnosPendientes')" icon="el-icon-check" type="success"
+            <el-button class="mt-14" @click="$router.push('/turnosPendientes')" icon="el-icon-check" type="success"
                 circle></el-button>
         </div>
     </div>
