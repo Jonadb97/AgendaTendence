@@ -1,6 +1,6 @@
 <template>
     <div class="text-center">
-        <div class="p-2">
+        <div class="">
             <h1 class="mt-12">Turnos pendientes</h1>
             <el-carousel class="ml-auto mr-auto mt-24" :interval="4000" type="card">
                 <el-carousel-item v-for="item in 6" :key="item">

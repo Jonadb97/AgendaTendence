@@ -19,7 +19,48 @@ ul {
 
 #nav-links {
   list-style-type: none;
+  margin-right: 1.5rem;
 }
+
+@media (max-width: 600px) {
+
+  .el-carousel > el-carousel__container {
+    width: 20px;
+    height: 20px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav > a {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  nav > ul {
+    padding-left: auto;
+    padding-right: auto;
+  }
+
+  #nav-links {
+    list-style-type: none;
+    margin-right: auto;
+  }
+
+  #brand1 {
+    display: flex;
+  }
+
+  #brand2 {
+    display: flex;
+  }
+  
+}
+
 
 li {
   padding: 6px;

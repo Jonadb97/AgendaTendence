@@ -15,13 +15,13 @@ import Facebook from './assets/svg/facebook.vue'
 
     <!-- Header -->
     <nav class="flex">
-      <router-link class="mt-auto mb-auto" :to="{ path: '/' }"><img src="./assets/logo.png" width="64px" height="72px"
-          alt="Logo Tendence Solutions"></router-link>
-      <router-link class="mt-auto mb-auto" :to="{ path: '/' }">
+      <router-link id="brand1" class="mt-auto mb-auto" :to="{ path: '/' }"><img src="./assets/logo.png" width="64px"
+          height="72px" alt="Logo Tendence Solutions"></router-link>
+      <router-link id="brand2" class="mt-auto mb-auto" :to="{ path: '/' }">
         <h1 class="text-3xl m-0 p-0">Tendence</h1>
         <h1 id="solutions" class="text-4xl text-center">SOLUTIONS</h1>
       </router-link>
-      <ul id="nav-links" class="flex mt-auto mb-auto ml-auto mr-6">
+      <ul id="nav-links" class="flex mt-auto mb-auto ml-auto">
         <li class="hover:cursor-pointer"><router-link :to="{ path: '/' }">Inicio</router-link></li>
         <li class="hover:cursor-pointer"><router-link :to="{ path: '/login' }">Iniciar sesión</router-link></li>
         <li class="hover:cursor-pointer"><router-link :to="{ path: '/sacarTurno' }">Sacar turno</router-link></li>

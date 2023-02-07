@@ -3,7 +3,7 @@
         <div id="turnos-section1" class="h-screen">
             <h1>Sacar turno</h1>
             <h2 class="mt-6 mb-6">¿Qué te vas a hacer?</h2>
-            <el-carousel class="w-200 ml-auto mr-auto" :interval="4000" type="card" height="200px">
+            <el-carousel class=" ml-auto mr-auto" :interval="4000" type="card" >
                 <el-carousel-item v-for="item in 6" :key="item">
                     <h3 class="medium">{{ item }}</h3>
                 </el-carousel-item>
@@ -13,7 +13,7 @@
         </div>
         <div id="turnos-section2" class="h-screen">
             <h2 class="pt-20">¿Con quién?</h2>
-            <el-carousel class="w-200 ml-auto mr-auto mt-20" :interval="4000" type="card" height="200px">
+            <el-carousel class=" ml-auto mr-auto mt-20" :interval="4000" type="card" >
                 <el-carousel-item v-for="item in 6" :key="item">
                     <h3 class="medium">{{ item }}</h3>
                 </el-carousel-item>
