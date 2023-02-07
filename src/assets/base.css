@@ -40,6 +40,30 @@ Azul: #446FB2
   
 }
 
+/* Default colors */
+body {
+  --text-color: #2A2A2A;
+  --bkg-color: #F4F4F4;
+}
+/* Dark theme colors */
+body.dark-theme {
+  --text-color: #F4F4F4;
+  --bkg-color: #2A2A2A;
+}
+
+/* Styles for users who prefer dark mode at the OS level */
+@media (prefers-color-scheme: dark) {
+  /* defaults to dark theme */
+  body { 
+    --text-color: #2A2A2A;
+    --bkg-color: #F4F4F4;
+  }
+  /* Override dark mode with light mode styles if the user decides to swap */
+  body.light-theme {
+    --text-color: #F4F4F4;
+    --bkg-color: #2A2A2A;
+  }
+
 :root {
   color-scheme: dark;
   --Blanco: #F4F4F4;
