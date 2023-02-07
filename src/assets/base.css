@@ -63,6 +63,7 @@ body.dark-theme {
     --text-color: #F4F4F4;
     --bkg-color: #2A2A2A;
   }
+}
 
 :root {
   color-scheme: dark;
